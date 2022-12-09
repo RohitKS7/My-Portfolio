@@ -92,7 +92,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.solidity, images.react, images.ethereum].map(
+        {[images.solidity, images.react, images.thegraph].map(
           (circle, index) => (
             <div className="circle-cmp app__flex" key={`circle-${index}`}>
               <img src={circle} alt="circle" />
