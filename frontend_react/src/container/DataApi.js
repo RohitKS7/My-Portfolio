@@ -114,7 +114,7 @@ const FilterWorks = [
   },
 ];
 
-const SkillsList = [
+const Web2SkillsList = [
   {
     title: "HTML",
     icon: images.html,
@@ -141,9 +141,9 @@ const SkillsList = [
     bgColor: "#EFE8FA",
   },
   {
-    title: "Solidity",
-    icon: images.solidity,
-    bgColor: "#EFE8FA",
+    title: "Visual Studio",
+    icon: images.visual_studio,
+    bgColor: "#DDE8EE",
   },
   {
     title: "API",
@@ -164,6 +164,29 @@ const SkillsList = [
     title: "Bootstrap",
     icon: images.bootstrap,
     bgColor: "#e1cbf9b8",
+  },
+  {
+    title: "Sanity",
+    icon: images.sanity,
+    bgColor: "#FFF4F2",
+  },
+  {
+    title: "Framer Motion",
+    icon: images.framer_motion,
+    bgColor: "#e1cbf9b8",
+  },
+  {
+    title: "Material UI",
+    icon: images.material,
+    bgColor: "#ECFCFF",
+  },
+];
+
+const SkillsList = [
+  {
+    title: "Solidity",
+    icon: images.solidity,
+    bgColor: "#EFE8FA",
   },
   {
     title: "BlockChain",
@@ -196,11 +219,6 @@ const SkillsList = [
     bgColor: "#e1cbf9b8",
   },
   {
-    title: "Framer Motion",
-    icon: images.framer_motion,
-    bgColor: "#e1cbf9b8",
-  },
-  {
     title: "Ganache",
     icon: images.ganache,
     bgColor: "#FFF4F2",
@@ -209,11 +227,6 @@ const SkillsList = [
     title: "Hardhat",
     icon: images.hardhat,
     bgColor: "#FDF7D1",
-  },
-  {
-    title: "Material UI",
-    icon: images.material,
-    bgColor: "#ECFCFF",
   },
   {
     title: "Wallet Connect",
@@ -241,11 +254,6 @@ const SkillsList = [
     bgColor: "#ECFCFF",
   },
   {
-    title: "Sanity",
-    icon: images.sanity,
-    bgColor: "#FFF4F2",
-  },
-  {
     title: "The Graph Protcol",
     icon: images.thegraph,
     bgColor: "#ECFCFF",
@@ -254,11 +262,6 @@ const SkillsList = [
     title: "Truffle",
     icon: images.truffle,
     bgColor: "#EFE8FA",
-  },
-  {
-    title: "Visual Studio",
-    icon: images.visual_studio,
-    bgColor: "#DDE8EE",
   },
   {
     title: "Uniswap",
@@ -289,4 +292,4 @@ const Testimonials = [
   },
 ];
 
-export { Abouts, FilterWorks, SkillsList, Testimonials };
+export { Abouts, FilterWorks, SkillsList, Testimonials, Web2SkillsList };

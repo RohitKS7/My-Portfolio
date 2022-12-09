@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Footer.scss";
 import { images } from "../../constants";
-import { client } from "../../client";
+// import { client } from "../../client";
 import { AppWrap, MotionWrap } from "../../wrapper";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -24,17 +25,39 @@ const Footer = () => {
   const handleSubmit = () => {
     setLoading(true);
 
-    const contact = {
-      _type: "contact",
-      name: name,
-      email: email,
-      message: message,
-    };
+    if (name && email && message) {
+      const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+      const templateId = process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID;
+      const publicKey = process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY;
+      const templateParams = {
+        name,
+        email,
+        message,
+      };
 
-    client.create(contact).then(() => {
+      emailjs
+        .send(serviceId, templateId, templateParams, publicKey)
+        .then((response) => console.log(response))
+        .then((error) => console.log(error));
+
       setLoading(false);
       setIsFormSubmitted(true);
-    });
+    } else {
+      alert("Please fill in all fields");
+    }
+
+    // NOTE below code is for sanity contact form
+    // const contact = {
+    //   _type: "contact",
+    //   name: name,
+    //   email: email,
+    //   message: message,
+    // };
+
+    // client.create(contact).then(() => {
+    //   setLoading(false);
+    //   setIsFormSubmitted(true);
+    // });
   };
 
   return (
