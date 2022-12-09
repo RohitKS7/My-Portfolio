@@ -48,7 +48,7 @@ const FilterWorks = [
   {
     title: "Multiplayer NFT Card Game",
     description:
-      "This Game is build on Avalanche Chain which makes it gas efficient and fast to play. Security rich smart contract build on lastest hardhat version. Connect me to play together :)",
+      "This Game is build on Avalanche Chain which makes it gas efficient and fast to play. Security rich smart contract build on lastest hardhat version. Connect with me to play together :)",
     imgUrl: images.nft_game,
     name: "Web3 DApp",
     projectLink: "https://rohit-nft-card-game.vercel.app/",
@@ -59,7 +59,7 @@ const FilterWorks = [
   {
     title: "NFT Marketplace",
     description:
-      "NFT Marketplace build on lastest Next 13 framework, deployed on goerli. Using  THE GRAPH Protocol to fetch events from blockchain and show on Frontend to make user's life easier.",
+      "NFT Marketplace build on lastest Next 13 framework, deployed on goerli. Using  THEGRAPH Protocol to fetch events from blockchain and show on Frontend to make user's life easier.",
     imgUrl: images.nft_marketplace,
     name: "Web3 DApp",
     projectLink:
@@ -211,7 +211,7 @@ const SkillsList = [
     bgColor: "#FDF7D1",
   },
   {
-    title: "Material",
+    title: "Material UI",
     icon: images.material,
     bgColor: "#ECFCFF",
   },
