@@ -229,6 +229,11 @@ const Web2SkillsList = [
     bgColor: "#DDE8EE",
   },
   {
+    title: "SCSS",
+    icon: images.scss,
+    bgColor: "#FFF4F2",
+  },
+  {
     title: "API",
     icon: images.api,
     bgColor: "#EFE8FA",

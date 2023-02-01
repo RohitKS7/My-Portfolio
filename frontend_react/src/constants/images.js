@@ -34,6 +34,7 @@ import walletconnect from "../assets/walletconnect.svg";
 import redux from "../assets/redux.svg";
 import vitejs from "../assets/vitejs.svg";
 import thirdweb from "../assets/thirdweb.png";
+import scss from "../assets/scss.svg";
 
 import frontend from "../assets/frontend.jpg";
 import ui_ux from "../assets/ui_ux.jpg";
@@ -100,6 +101,7 @@ export default {
   redux,
   vitejs,
   thirdweb,
+  scss,
   frontend,
   ui_ux,
   web3dapp,
