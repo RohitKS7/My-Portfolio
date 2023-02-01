@@ -28,7 +28,7 @@ const Skills = () => {
                   className="app__flex"
                   style={{ backgroundColor: w2skill.bgColor }}
                 >
-                  <img src={w2skill.icon} alt={w2skill.title} />
+                  <img src={w2skill.icon} alt={w2skill.title} loading="lazy" />
                 </div>
                 <p className="p-text">{w2skill.title}</p>
               </motion.div>
@@ -52,7 +52,7 @@ const Skills = () => {
                   className="app__flex"
                   style={{ backgroundColor: skill.bgColor }}
                 >
-                  <img src={skill.icon} alt={skill.title} />
+                  <img src={skill.icon} alt={skill.title} loading="lazy" />
                 </div>
                 <p className="p-text">{skill.title}</p>
               </motion.div>

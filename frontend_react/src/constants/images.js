@@ -46,6 +46,13 @@ import nft_marketplace from "../assets/nft-marketplace.png";
 import weather from "../assets/weather.png";
 import web3_agency from "../assets/web3-agency.png";
 import blogging_site from "../assets/blogging-site.png";
+import chatgpt from "../assets/chatgpt.png";
+import crowdfunding from "../assets/crowdfunding.png";
+import cryptoverse from "../assets/cryptoverse.png";
+import linktree from "../assets/linktree.png";
+import lyrics from "../assets/lyrics.png";
+import dashboard from "../assets/dashboard.png";
+import mytube from "../assets/mytube.png";
 
 import circle from "../assets/circle.svg";
 import rohitprofile2 from "../assets/rohitprofile2.png";
@@ -100,6 +107,13 @@ export default {
   weather,
   web3_agency,
   blogging_site,
+  chatgpt,
+  crowdfunding,
+  cryptoverse,
+  linktree,
+  lyrics,
+  dashboard,
+  mytube,
   circle,
   rohitprofile2,
   rohit_svg,

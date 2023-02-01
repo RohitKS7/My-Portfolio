@@ -61,7 +61,7 @@ const Work = () => {
               data-for={work.description}
             >
               <div className="app__work-img app_flex">
-                <img src={work.imgUrl} alt={work.name} />
+                <img src={work.imgUrl} alt={work.name} loading="lazy" />
 
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}

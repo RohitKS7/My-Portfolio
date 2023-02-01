@@ -57,6 +57,84 @@ const FilterWorks = [
     tech: ["React, Avalanche, Solidity, Hardhat, Tailwind"],
   },
   {
+    title: "CrowdFunding Web3 Dapp",
+    description:
+      "An Truly Decentralized application to raise funds for any cause. Contract Created  and Deployed on ThirdWeb.",
+    imgUrl: images.crowdfunding,
+    name: "Web3 DApp",
+    projectLink: "https://crowdfunding-by-rohit.netlify.app/",
+    codeLink: "https://github.com/RohitKS7/Crowd-Funding-Web3-App",
+    tags: "Web3 DApp",
+    tech: ["React, ThirdWeb, Ethereum"],
+  },
+  {
+    title: "OpenAI ChatGPT",
+    description:
+      "The most famous AI is here for you as your everyday helper for any need. My first Mern application, express server deployed on Render.",
+    imgUrl: images.chatgpt,
+    name: "Web App",
+    projectLink: "https://github.com/RohitKS7/chatgpt-clone",
+    codeLink: "https://helpai-chatgpt-clone.vercel.app/",
+    tags: "Web App",
+    tech: ["React, OpenAI, ChatGPT, Express, Mern, Render"],
+  },
+  {
+    title: "CryptoVerse",
+    description:
+      "CryptoVerse is a Web Application which provides real-time information related to Crypto-Universe. i.e, Price, About, News and more.",
+    imgUrl: images.cryptoverse,
+    name: "Web App",
+    projectLink: "https://cryptoverse-by-rohit.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/Cryptoverse",
+    tags: "Web App",
+    tech: ["React, Crypto, API, Redux ToolKit"],
+  },
+  {
+    title: "All-Links - My Personal Linktree",
+    description:
+      "Just to save some bucks and for fun, I created my own awesome looking linktree website. Feel free to explore it.",
+    imgUrl: images.linktree,
+    name: "UI/UX",
+    projectLink: "https://all-links-my-personal-linktree.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/All-Links__My-Personal-Linktree",
+    tags: "UI/UX",
+    tech: ["React, CSS Animations, Hover Effects"],
+  },
+  {
+    title: "Lyrics - Spotify Clone",
+    description:
+      "This Application is better than spotify and free too. Listen your favorite songs as much as you want but be warned the API has a limit :) .",
+    imgUrl: images.lyrics,
+    name: "Web App",
+    projectLink: "https://lyrics-a-free-spotify-alternative.netlify.app/",
+    codeLink:
+      "https://github.com/RohitKS7/Lyriks-A-Free-Alternative-Of-Spotify",
+    tags: "Web App",
+    tech: ["Vite, API, Music Player, RapidAPI, Redux"],
+  },
+  {
+    title: "ShopIt",
+    description:
+      "ShopIt is a ecommerce Admin Dashboard to manage all your orders, employees and customers with features like - 'In-App Chat', 'Calender', 'Kanban', 'Theme-Changer' and much more. Using syncfusion components to build rapid fast charts. ",
+    imgUrl: images.dashboard,
+    name: "Web App",
+    projectLink: "https://shopit-admin-dashboard.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/Admin_Dashboard",
+    tags: "Web App",
+    tech: ["React, Sycnfusion, Charts"],
+  },
+  {
+    title: "MyTube",
+    description:
+      "It's a Youtube clone but without Ads :) Watch your favorite videos anywhere for free.It has a beautiful UI too.",
+    imgUrl: images.mytube,
+    name: "Web App",
+    projectLink: "https://mytube-a-youtube-clone.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/Mytube____A-Youtube-Clone",
+    tags: "Web App",
+    tech: ["React, API, Video Player"],
+  },
+  {
     title: "NFT Marketplace",
     description:
       "NFT Marketplace build on lastest Next 13 framework, deployed on goerli. Using  THEGRAPH Protocol to fetch events from blockchain and show on Frontend to make user's life easier.",

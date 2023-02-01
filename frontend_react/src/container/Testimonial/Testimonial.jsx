@@ -19,6 +19,7 @@ const Testimonial = () => {
             <img
               src={Testimonials[currentIndex].imgUrl}
               alt={Testimonials[currentIndex].name}
+              loading="lazy"
             />
             <div className="app__testimonial-content">
               <p className="p-text">{Testimonials[currentIndex].feedback}</p>
