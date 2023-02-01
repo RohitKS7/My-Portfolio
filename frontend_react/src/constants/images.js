@@ -31,6 +31,9 @@ import truffle from "../assets/truffle.svg";
 import uniswap from "../assets/uniswap.svg";
 import visual_studio from "../assets/visual-studio.svg";
 import walletconnect from "../assets/walletconnect.svg";
+import redux from "../assets/redux.svg";
+import vitejs from "../assets/vitejs.svg";
+import thirdweb from "../assets/thirdweb.png";
 
 import frontend from "../assets/frontend.jpg";
 import ui_ux from "../assets/ui_ux.jpg";
@@ -94,6 +97,9 @@ export default {
   uniswap,
   visual_studio,
   walletconnect,
+  redux,
+  vitejs,
+  thirdweb,
   frontend,
   ui_ux,
   web3dapp,

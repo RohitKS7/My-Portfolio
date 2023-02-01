@@ -219,6 +219,11 @@ const Web2SkillsList = [
     bgColor: "#EFE8FA",
   },
   {
+    title: "Vite JS",
+    icon: images.vitejs,
+    bgColor: "#FDF7D1",
+  },
+  {
     title: "Visual Studio",
     icon: images.visual_studio,
     bgColor: "#DDE8EE",
@@ -229,9 +234,9 @@ const Web2SkillsList = [
     bgColor: "#EFE8FA",
   },
   {
-    title: "Git",
-    icon: images.git,
-    bgColor: "#FFF4F2",
+    title: "Redux",
+    icon: images.redux,
+    bgColor: "#e1cbf9b8",
   },
   {
     title: "Tailwind CSS",
@@ -242,11 +247,6 @@ const Web2SkillsList = [
     title: "Bootstrap",
     icon: images.bootstrap,
     bgColor: "#e1cbf9b8",
-  },
-  {
-    title: "Sanity",
-    icon: images.sanity,
-    bgColor: "#FFF4F2",
   },
   {
     title: "Framer Motion",
@@ -275,6 +275,11 @@ const SkillsList = [
     title: "Alchemy",
     icon: images.alchemy,
     bgColor: "#ECFCFF",
+  },
+  {
+    title: "ThirdWeb",
+    icon: images.thirdweb,
+    bgColor: "#FFF4F2",
   },
   {
     title: "Avalanche",
@@ -314,6 +319,11 @@ const SkillsList = [
   {
     title: "Metamask",
     icon: images.metamask,
+    bgColor: "#FFF4F2",
+  },
+  {
+    title: "Sanity",
+    icon: images.sanity,
     bgColor: "#FFF4F2",
   },
   {
