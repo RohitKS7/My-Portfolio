@@ -37,7 +37,7 @@ const FilterWorks = [
   {
     title: "Metaversus",
     description:
-      "Modern UI/UX website for Web3 agencies. Build on React from Figma design. Beautiful animations, responsive layout and expressive designs",
+      "Modern UI/UX website for Web3 agencies. Built on React from Figma design. Beautiful animations, responsive layout and expressive designs",
     imgUrl: images.metaversus,
     name: "UI/UX",
     projectLink: "https://metaversus-by-rohit.vercel.app/",
@@ -48,7 +48,7 @@ const FilterWorks = [
   {
     title: "Multiplayer NFT Card Game",
     description:
-      "This Game is build on Avalanche Chain which makes it gas efficient and fast to play. Security rich smart contract build on lastest hardhat version. Connect with me to play together :)",
+      "This Game is built on Avalanche Chain which makes it gas efficient and fast to play. Security rich smart contract built on latest hardhat version. Connect with me to play together :)",
     imgUrl: images.nft_game,
     name: "Web3 DApp",
     projectLink: "https://rohit-nft-card-game.vercel.app/",
@@ -59,7 +59,7 @@ const FilterWorks = [
   {
     title: "CrowdFunding Web3 Dapp",
     description:
-      "An Truly Decentralized application to raise funds for any cause. Contract Created  and Deployed on ThirdWeb.",
+      "An Truly Decentralized application to raise funds for any cause. Contract Created and Deployed on ThirdWeb.",
     imgUrl: images.crowdfunding,
     name: "Web3 DApp",
     projectLink: "https://crowdfunding-by-rohit.netlify.app/",
@@ -115,7 +115,7 @@ const FilterWorks = [
   {
     title: "ShopIt",
     description:
-      "ShopIt is a ecommerce Admin Dashboard to manage all your orders, employees and customers with features like - 'In-App Chat', 'Calender', 'Kanban', 'Theme-Changer' and much more. Using syncfusion components to build rapid fast charts. ",
+      "ShopIt is a ecommerce Admin Dashboard to manage all your orders, employees and customers with features like - 'In-App Chat', 'Calender', 'Kanban', 'Theme-Changer' and much more. Using syncfusion components to built rapid fast charts. ",
     imgUrl: images.dashboard,
     name: "Web App",
     projectLink: "https://shopit-admin-dashboard.vercel.app/",
@@ -137,7 +137,7 @@ const FilterWorks = [
   {
     title: "NFT Marketplace",
     description:
-      "NFT Marketplace build on lastest Next 13 framework, deployed on goerli. Using  THEGRAPH Protocol to fetch events from blockchain and show on Frontend to make user's life easier.",
+      "NFT Marketplace built on lastest Next 13 framework, deployed on goerli. Using  THEGRAPH Protocol to fetch events from blockchain and show on Frontend to make user's life easier.",
     imgUrl: images.nft_marketplace,
     name: "Web3 DApp",
     projectLink:
@@ -149,7 +149,7 @@ const FilterWorks = [
   },
   {
     title: "API Weather App",
-    description: "Build on React, using weather api.",
+    description: "Built on React, using weather api.",
     imgUrl: images.weather,
     name: "Web App",
     projectLink: "https://react-weather-app-xi-liart.vercel.app/",
@@ -160,7 +160,7 @@ const FilterWorks = [
   {
     title: "Blogging Site",
     description:
-      "Beautiful and responsive design, build with vanilla Html, Css, and Javascript",
+      "Beautiful and responsive design, built with vanilla Html, Css, and Javascript",
     imgUrl: images.blogging_site,
     name: "UI/UX",
     projectLink: "https://tcbloggingsite.netlify.app/",
@@ -171,7 +171,7 @@ const FilterWorks = [
   {
     title: "Web3 Agency Site",
     description:
-      "Agency website with Stunning Cube Animation build with only Html, Css and Javascript",
+      "Agency website with Stunning Cube Animation built with only Html, Css and Javascript",
     imgUrl: images.web3_agency,
     name: "UI/UX",
     projectLink: "https://non-standard.netlify.app/",
