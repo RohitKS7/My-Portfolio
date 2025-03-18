@@ -1,4 +1,4 @@
-# My Portfolio - Rohit Kumar Singh
+# My Portfolio - Rohit Kumar Suman
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
