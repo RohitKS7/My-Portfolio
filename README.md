@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio website repository! This site showcases my skills, projects, and professional journey in a clean and modern design.
 
-🌐 **Live Demo:** [Visit Here]([https://rohitks7.github.io/My-Portfolio/](https://my-portfolio-rohitks7.vercel.app/))
+🌐 **Live Demo:** [Visit Here](https://my-portfolio-rohitks7.vercel.app/)
 
 ## Features
 
