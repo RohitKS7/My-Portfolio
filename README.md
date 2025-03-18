@@ -1,18 +1,63 @@
-# My Portfolio
+# My Portfolio - Rohit Kumar Singh
 
-This Portfolio is build on _Reactjs_ with _Sanity_ Content Management Backend.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-It's a _Beautiful_, _Responsive_ and _Stunning_ Web-Design Portfolio.
+Welcome to my personal portfolio website repository! This site showcases my skills, projects, and professional journey in a clean and modern design.
 
-I'm creating it to showcase _my projects_, _learnings_ and _skills_ to potential employers.
+🌐 **Live Demo:** [Visit Here]([https://rohitks7.github.io/My-Portfolio/](https://my-portfolio-rohitks7.vercel.app/))
 
-If you like this website and have any questions regarding it, then feel free to contact me on Twitter or LinkedIn.
+## Features
 
-# Repo Overview
+- **Responsive Design:** Works seamlessly on mobile, tablet, and desktop
+- **Sections:**
+  - Hero Section with quick introduction
+  - About Me with background information
+  - Skills & Technologies
+  - Project Showcase with descriptions and links
+  - Testimonials 
+  - Contact Form/Details
+- **Interactive Elements:** Smooth scrolling, hover effects, and animations
+- **Easy Customization:** Well-structured code for quick updates
 
-> Detailed Walkthrough of each folder is available in their respective README.md file.
+## 🛠️ Technologies Used
 
-We have 2 main repo:
+- **Frontend:** React, TailwindCSS,  Framer Motion, Figma, 
+- **Backend:** Sanity
 
-- Frontend = React JS
-- Backend = Sanity
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/RohitKS7/My-Portfolio.git
+   ```
+   
+2. Navigate to project directory
+   ```bash
+    cd My-Portfolio
+   ```
+   
+3. Run the app:
+   ```
+   npm run dev
+   ```
+   
+4. Open
+   ```
+    http://localhost:3000/
+   ```
+   in your browser to see the app.
+
+## Contribution
+
+I built this app from scratch, designing the UI and integrating Web3 functionality with Thirdweb. I focused on making the crowdfunding process seamless and intuitive for users.
+
+## License
+
+This project is open-source under the MIT License—free to use and modify.
+
+## Contact
+
+For questions, reach out to me on LinkedIn or X.
+
+
+
