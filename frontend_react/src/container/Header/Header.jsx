@@ -49,8 +49,10 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">𝗙𝗥𝗢𝗡𝗧𝗘𝗡𝗗 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 of 𝗪𝗘𝗕𝟮 & 𝗪𝗘𝗕𝟯</p>
-            <p className="p-text">𝗕𝗔𝗖𝗞𝗘𝗡𝗗 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 of 𝗪𝗘𝗕𝟯</p>
+            <p className="p-text">The One Who Bridge Web2 & Web3 as </p>
+            <p className="p-text bold-text">Frontend Developer & UI/UX Designer</p>
+            <p className="p-text">aka</p>
+            <p className="p-text bold-text">Web3BridgeMaster</p>
           </div>
         </div>
       </motion.div>
@@ -60,7 +62,7 @@ const Header = () => {
         transition={{ duration: 0.5 }}
         className="app__header-img"
       >
-        <img src={images.rohitprofile2} alt="profile_bg" loading="lazy" />
+        <img src={images.rohitprofile} alt="profile_bg" loading="lazy" />
         <motion.div
           variants={imgBgContainer}
           initial="hidden"
@@ -72,10 +74,10 @@ const Header = () => {
             src={images.circle}
             alt="profile_circle"
           />
-          <motion.div
+          {/* <motion.div
             variants={imgBG}
             className="overlay_circle extra-circle1"
-          />
+          /> */}
           <motion.div
             variants={imgBG}
             className="overlay_circle extra-circle2"
@@ -92,7 +94,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.solidity, images.react, images.thegraph].map(
+        {[images.nextjs, images.react, images.typescript].map(
           (circle, index) => (
             <div className="circle-cmp app__flex" key={`circle-${index}`}>
               <img src={circle} alt="circle" loading="lazy" />

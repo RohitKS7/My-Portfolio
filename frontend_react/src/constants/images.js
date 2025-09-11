@@ -35,6 +35,7 @@ import redux from "../assets/redux.svg";
 import vitejs from "../assets/vitejs.svg";
 import thirdweb from "../assets/thirdweb.png";
 import scss from "../assets/scss.svg";
+import typescript from "../assets/typescript.svg";
 
 import frontend from "../assets/frontend.jpg";
 import ui_ux from "../assets/ui_ux.jpg";
@@ -59,7 +60,7 @@ import dashboard from "../assets/dashboard.png";
 import mytube from "../assets/mytube.png";
 
 import circle from "../assets/circle.svg";
-import rohitprofile2 from "../assets/rohitprofile2.png";
+import rohitprofile from "../assets/rohitprofile1.png";
 import rohit_svg from "../assets/rohit.svg";
 import twitter2 from "../assets/twitter2.png";
 import twitter1 from "../assets/twitter1.jpg";
@@ -102,6 +103,7 @@ export default {
   vitejs,
   thirdweb,
   scss,
+  typescript,
   frontend,
   ui_ux,
   web3dapp,
@@ -123,7 +125,7 @@ export default {
   dashboard,
   mytube,
   circle,
-  rohitprofile2,
+  rohitprofile,
   rohit_svg,
   twitter1,
   twitter2,

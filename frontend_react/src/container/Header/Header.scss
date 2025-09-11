@@ -217,10 +217,22 @@
   position: relative;
 
   img {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center top;
     z-index: 1;
     width: 100%;
-    border-radius: 5rem 5rem 50rem 5rem;
+    height: 100%;
+    // Responsive border-radius using percentage and viewport units
+    border-radius: 15% 15% 50% 15%;
+    
+    // Alternative approach using CSS custom properties for better control
+    --border-top-left: 15%;
+    --border-top-right: 15%;
+    --border-bottom-right: 50%;
+    --border-bottom-left: 15%;
+    
+    // Fallback for older browsers
+    border-radius: var(--border-top-left) var(--border-top-right) var(--border-bottom-right) var(--border-bottom-left);
   }
 
   .overlay_circle {
@@ -236,7 +248,8 @@
   .extra-circle1 {
     height: 100%;
     transform: none;
-    border-radius: 5rem 5rem 50rem 5rem;
+    // Match the main image border-radius
+    border-radius: 15% 15% 50% 15%;
     box-shadow: 0px -15px 20px rgba(0, 0, 0, 0.1);
     background: transparent;
   }
@@ -244,30 +257,117 @@
   .extra-circle2 {
     height: 90%;
     transform: none;
-    border-radius: 3rem 3rem 25pc 5rem;
+    // Slightly smaller border-radius for layered effect
+    border-radius: 12% 12% 45% 12%;
     box-shadow: -10px -15px 20px #00000012;
     background: transparent;
     border: 5px solid #edf2f8;
-    border-right: 0pc solid #edf2f8;
-    border-bottom: 4pc solid #edf2f8;
+    border-right: 0px solid #edf2f8;
+    border-bottom: 4px solid #edf2f8;
   }
 
   .extra-circle3 {
     height: 80%;
     transform: none;
-    border-radius: 4rem 4rem 30pc 5rem;
+    // Even smaller for the innermost circle
+    border-radius: 10% 10% 40% 10%;
     box-shadow: -10px -15px 20px #0000000d;
     background: transparent;
     border: 5px solid #edf2f8;
-    border-right: 0pc solid #edf2f8;
-    border-bottom: 4pc solid #edf2f8;
+    border-right: 0px solid #edf2f8;
+    border-bottom: 4px solid #edf2f8;
   }
 
-  // @media screen and (min-width: 1920px) {
-  //   margin-top: 4rem;
-  // }
+  // Responsive adjustments for different screen sizes
+  @media screen and (min-width: 2000px) {
+    img {
+      border-radius: 12% 12% 45% 12%;
+    }
+    
+    .extra-circle1 {
+      border-radius: 12% 12% 45% 12%;
+    }
+    
+    .extra-circle2 {
+      border-radius: 10% 10% 40% 10%;
+    }
+    
+    .extra-circle3 {
+      border-radius: 8% 8% 35% 8%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) and (max-width: 1999px) {
+    img {
+      border-radius: 14% 14% 48% 14%;
+    }
+    
+    .extra-circle1 {
+      border-radius: 14% 14% 48% 14%;
+    }
+    
+    .extra-circle2 {
+      border-radius: 11% 11% 43% 11%;
+    }
+    
+    .extra-circle3 {
+      border-radius: 9% 9% 38% 9%;
+    }
+  }
 
   @media screen and (max-width: 1024px) {
     margin: 2rem 0;
+    
+    img {
+      border-radius: 18% 18% 55% 18%;
+    }
+    
+    .extra-circle1 {
+      border-radius: 18% 18% 55% 18%;
+    }
+    
+    .extra-circle2 {
+      border-radius: 15% 15% 50% 15%;
+    }
+    
+    .extra-circle3 {
+      border-radius: 12% 12% 45% 12%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      border-radius: 20% 20% 60% 20%;
+    }
+    
+    .extra-circle1 {
+      border-radius: 20% 20% 60% 20%;
+    }
+    
+    .extra-circle2 {
+      border-radius: 17% 17% 55% 17%;
+    }
+    
+    .extra-circle3 {
+      border-radius: 14% 14% 50% 14%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    img {
+      border-radius: 25% 25% 65% 25%;
+    }
+    
+    .extra-circle1 {
+      border-radius: 25% 25% 65% 25%;
+    }
+    
+    .extra-circle2 {
+      border-radius: 22% 22% 60% 22%;
+    }
+    
+    .extra-circle3 {
+      border-radius: 19% 19% 55% 19%;
+    }
   }
 }

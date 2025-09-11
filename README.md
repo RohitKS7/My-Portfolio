@@ -33,15 +33,20 @@ Welcome to my personal portfolio website repository! This site showcases my skil
    
 2. Navigate to project directory
    ```bash
-    cd My-Portfolio
+    cd frontend_react
    ```
    
-3. Run the app:
+3. Install dependencies:
    ```
-   npm run dev
+   npm install
    ```
    
-4. Open
+4. Run the app:
+   ```
+   npm run start
+   ```
+
+5. Open
    ```
     http://localhost:3000/
    ```
