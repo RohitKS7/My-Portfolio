@@ -10,15 +10,29 @@
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 2rem;
+  gap: 1rem;
 }
 
 .app__profile-item {
-  width: 260px;
+  width: 280px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   margin: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px 0 rgba(31, 38, 135, 0.5);
+  }
 
   img {
     width: 100%;
@@ -27,12 +41,77 @@
     object-fit: cover;
   }
 
+  // Achievement Badge
+  .achievement-badge {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  }
+
+  // Subtitle styling
+  .subtitle-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+
+  // Metrics display
+  .metrics-display {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 25px;
+    text-align: center;
+    
+    .metrics-text {
+      color: white;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+  }
+
   @media screen and (min-width: 2000px) {
-    width: 370px;
+    width: 400px;
     margin: 2rem 4rem;
+    padding: 2rem;
 
     img {
       height: 320px;
+    }
+
+    .achievement-badge {
+      font-size: 0.8rem;
+      padding: 8px 16px;
+    }
+
+    .metrics-display {
+      padding: 12px 20px;
+      
+      .metrics-text {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem 0;
+    padding: 1rem;
+
+    .achievement-badge {
+      font-size: 0.65rem;
+      padding: 4px 10px;
     }
   }
 }

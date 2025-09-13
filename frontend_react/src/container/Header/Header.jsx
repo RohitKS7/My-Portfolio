@@ -50,7 +50,7 @@ const Header = () => {
 
           <div className="tag-cmp app__flex">
             <p className="p-text">The One Who Bridge Web2 & Web3 as </p>
-            <p className="p-text bold-text">Frontend Developer & UI/UX Designer</p>
+            <p className="p-text bold-text">Frontend Engineer & UI/UX Designer</p>
             <p className="p-text">aka</p>
             <p className="p-text bold-text">Web3BridgeMaster</p>
           </div>

@@ -36,6 +36,9 @@ import vitejs from "../assets/vitejs.svg";
 import thirdweb from "../assets/thirdweb.png";
 import scss from "../assets/scss.svg";
 import typescript from "../assets/typescript.svg";
+import cursor from "../assets/cursor_icon.svg";
+import viem from "../assets/viem_logo.png";
+import ipfs from "../assets/ipfs_icon.png";
 
 import frontend from "../assets/frontend.jpg";
 import ui_ux from "../assets/ui_ux.jpg";
@@ -64,8 +67,21 @@ import rohitprofile from "../assets/rohitprofile1.png";
 import rohit_svg from "../assets/rohit.svg";
 import twitter2 from "../assets/twitter2.png";
 import twitter1 from "../assets/twitter1.jpg";
+import richard from "../assets/Richard.jpg";
+import quirin from "../assets/quirin.jpg";
+import amana_page from "../assets/Welcome_Amana.png";
 
-export default {
+// About Assets - Videos and Images
+import amanaExperienceVideo from "../assets/about assets/amana_experience_video.mp4";
+import amanaExperienceImage from "../assets/about assets/amana_experience_image.png";
+import threeYearExperienceVideo from "../assets/about assets/3year_video.mp4";
+import threeYearExperienceImage from "../assets/about assets/3year_image.jpg";
+import performanceImprovementVideo from "../assets/about assets/27_video.mp4";
+import performanceImprovementImage from "../assets/about assets/27_image.png";
+import userRetentionVideo from "../assets/about assets/13_video.mp4";
+import userRetentionImage from "../assets/about assets/13_image.jpg";
+
+const images = {
   email,
   api,
   css,
@@ -73,6 +89,9 @@ export default {
   git,
   html,
   javascript,
+  cursor,
+  viem,
+  ipfs,
   react,
   solidity,
   aave,
@@ -129,4 +148,18 @@ export default {
   rohit_svg,
   twitter1,
   twitter2,
+  richard,
+  quirin,
+  amana_page,
+  // About Assets
+  amanaExperienceVideo,
+  amanaExperienceImage,
+  threeYearExperienceVideo,
+  threeYearExperienceImage,
+  performanceImprovementVideo,
+  performanceImprovementImage,
+  userRetentionVideo,
+  userRetentionImage,
 };
+
+export default images;

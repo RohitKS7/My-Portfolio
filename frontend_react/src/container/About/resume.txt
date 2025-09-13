@@ -1,0 +1,49 @@
+.
+Rohit Kumar Suman 
+Web3 Frontend Developer 
+rohitksbusiness@gmail.com +91-8868847985 | LinkedIn | Github | Portfolio
+ SUMMARY 
+Creative and performance-driven Web3 Frontend Developer with over 3 years of experience learning, building, and shipping decentralized applications, from 
+personal dApps to production-ready platforms. Recently led frontend development at AmanaDefi, a cross-chain yield aggregator on ZetaChain, where I built real-time 
+analytics dashboards, native BTC flows, and multi-chain wallet systems. 
+Specialized in smart contract integrations, multi-chain wallet systems, and data-rich DeFi UIs. Passionate about bridging protocol-level complexity with clean, 
+intuitive user experiences. Known for rapid execution, debugging wizardry, and full ownership of product flows. 
+WORK EXPERIENCE 
+Lead Frontend Developer | AmanaDefi (ZetaChain ecosystem) Mar - Sep 2025
+- Spearheaded the frontend build for a cross-chain DeFi aggregator with native BTC support, integrated via custom MultiChainProvider. 
+- Designed and built vault UI with real-time APY, TVL, and historical data using DeFiLlama + Exponential API. 
+- Developed a 30-day APY prediction algorithm with EMA and confidence scoring. 
+- Integrated smart contracts using ethers.js, viem, and wagmi for deposit, withdrawal, and vault management. 
+- Architected full transaction flow management, including wallet auth, gas control, error handling, and step-by-step user feedback. 
+- Collaborated with design, backend, and protocol engineers in fast-paced startup cycles. 
+- Implemented responsive, performance-optimized interfaces with Next.js 14, Zustand, and TailwindCSS. 
+PROJECTS 
+ AmanaDefi.com — Cross-Chain Vault Aggregator Live View Link
+- Role: Lead Frontend Developer 
+- Technologies: Next.js, TypeScript, Viem, Ether.js, Zustand 
+- Highlights: 
+- Unified wallet support (EVM, Solana, Bitcoin) 
+- BTC-native deposit & withdraw integration 
+- Smart contract interactions across multiple DeFi protocols 
+- Risk rating + APY prediction models 
+- Responsive design with live data charts and secure flows 
+Multiplayer NFT Card Game | Github Link | Live View Link
+- Role: Full-Stack Blockchain Engineer 
+- Technologies: React.js, TypeScript, Ethereum, Solidity, Web3.js, Hardhat 
+- Highlights: 
+- Developed a Web3 game with real-time blockchain event handling, improving responsiveness by 27%. 
+- Enhanced frontend performance with optimized API calls and wallet integration (MetaMask), driving a 31% increase in user retention. 
+ SKILLS 
+TECHNICAL SKILLS - 
+- Frontend: React.js, Next.js, TypeScript, JavaScript, TailwindCSS, Framer Motion, Zustand, React Query, Custom Hooks 
+- Web3 & Blockchain: Ether.js, viem, wagmi, Smart Contract Interaction, Gas Estimation, Slippage Mgmt, On-chain analytics, risk APIs, bridging logic 
+- Wallet Integration: MetaMask, WalletConnect, Solana, native BTC
+- Real-Time Data & APIs: WebSockets, DeFiLlama API, Exponential Risk Ratings, ApexCharts, EMA prediction models, REST, GraphQL (basic) 
+- Dev Tools & Infra: Git, Alchemy, IPFS, Vercel, GitHub Actions 
+ EDUCATION 
+Bachelor of Science in Biotechnology 
+ Dr BhimRao Ambedkar University, Agra • 2018-2021 
+ Certifications & Highlights 
+- Built dApps since 2021: NFT games, crowdfunding apps, DeFi dashboards 
+- Early contributor to multi-protocol DeFi UX on ZetaChain 
+- Known for fast delivery, debugging, and full-stack Web3 mindset

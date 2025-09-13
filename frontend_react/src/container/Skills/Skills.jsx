@@ -37,7 +37,7 @@ const Skills = () => {
         </div>
 
         <div className="app__skills-category-container">
-          <h3 className="bold-text"> Web3 / Backend</h3>
+          <h3 className="bold-text"> Web3</h3>
           <motion.div className="app__skills-list">
             {SkillsList.map((skill, index) => (
               <motion.div

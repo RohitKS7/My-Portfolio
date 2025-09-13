@@ -2,42 +2,60 @@ import { images } from "../constants";
 
 const Abouts = [
   {
-    title: "Frontend",
-    description: `Frontend Developer takes the responsiblity to create an applications which is beautiful, responsive and hooks user's attention. As the saying goes
-          "𝙁𝙞𝙧𝙨𝙩 𝙄𝙢𝙥𝙧𝙚𝙨𝙨𝙞𝙤𝙣 𝙞𝙨 𝙩𝙝𝙚 𝙇𝙖𝙨𝙩 𝙄𝙢𝙥𝙧𝙚𝙨𝙨𝙞𝙤𝙣"
-        `,
-    imgUrl: images.frontend,
+    title: "Core Contributor & Lead Frontend Engineer",
+    subtitle: "AmanaDefi (ZetaChain)",
+    description: `Led frontend development for a cross-chain DeFi aggregator with native BTC support. Built real-time analytics dashboards, multi-chain wallet systems, and vault UI with live APY data. Architected full transaction flow management with wallet auth and gas control.`,
+    metrics: "Production DeFi Platform",
+    imgUrl: images.amanaExperienceImage,
+    videoUrl: images.amanaExperienceVideo,
+    highlight: "Cross-Chain DeFi Platform"
   },
   {
-    title: "Modern UI/UX",
-    description: `Eye Catchy and Animation Rich 𝙐𝙄 with functional 𝙐𝙓 Websites`,
-    imgUrl: images.ui_ux,
+    title: "Web3 Innovation",
+    subtitle: "3+ Years Building dApps",
+    description: `Built multiple production dApps since 2021: NFT games, crowdfunding apps, DeFi dashboards. Early contributor to multi-protocol DeFi UX on ZetaChain. Known for fast delivery and full-stack Web3 mindset.`,
+    metrics: "3+ Years Experience",
+    imgUrl: images.threeYearExperienceImage,
+    videoUrl: images.threeYearExperienceVideo,
+    highlight: "Web3 Pioneer"
   },
   {
-    title: "Web Applications",
-    description:
-      "I love to build Web applications most of all. Using 𝘼𝙋𝙄𝙨 are so much fun for fetching 𝘿𝘼𝙏𝘼.",
-    imgUrl: images.webapp,
+    title: "Performance Optimization",
+    subtitle: "27% Responsiveness Boost",
+    description: `Developed Web3 game with real-time blockchain event handling, achieving 27% improvement in responsiveness. Enhanced frontend performance with optimized API calls and seamless wallet integration.`,
+    metrics: "27% Faster Response",
+    imgUrl: images.performanceImprovementImage,
+    videoUrl: images.performanceImprovementVideo,
+    highlight: "Performance Expert"
   },
   {
-    title: "FullStack Web3 / DApp ",
-    description:
-      "A Fullstack Web3 Developer 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙨 the 2 whole different worlds of 𝙒𝙚𝙗_2 and 𝘽𝙡𝙤𝙘𝙠𝙘𝙝𝙖𝙞𝙣. And create something unique",
-    imgUrl: images.web3dapp,
+    title: "User Retention Growth",
+    subtitle: "13% Increase Achieved",
+    description: `Drove 13% increase in user retention through optimized API calls and MetaMask wallet integration. Built responsive, performance-optimized interfaces with Next.js 14, Zustand, and TailwindCSS.`,
+    metrics: "13% More Users",
+    imgUrl: images.userRetentionImage,
+    videoUrl: images.userRetentionVideo,
+    highlight: "Growth Driver"
   },
-  {
-    title: "Smart Contract Development",
-    description:
-      "As a Smart Contract Developer, I'll take the responsiblity to produce easy to understand and  𝙨𝙚𝙘𝙪𝙧𝙞𝙩𝙮 𝙧𝙞𝙘𝙝 𝙘𝙤𝙙𝙚 𝙗𝙖𝙨𝙚",
-    imgUrl: images.smart_contract,
-  },
+ 
 ];
 
 const FilterWorks = [
   {
+    title: "AmanaDefi",
+    description:
+      "Led frontend development for a cross-chain DeFi aggregator with native BTC support. Built real-time analytics dashboards, multi-chain wallet systems, and vault UI with live APY data. Architected full transaction flow management with wallet auth and gas control.",
+    imgUrl: images.amana_page,
+    name: "Web3 DApp",
+    projectLink: "https://amanadefi.com/",
+    codeLink: "app.amanadefi.com",
+    tags: "Web3 DApp",
+    tech: ["Next JS, TypeScript, Viem, Ether.js, Zustand, Thirdweb, TailwindCSS"],
+  },
+  {
     title: "Metaversus",
     description:
-      "Modern UI/UX website for Web3 agencies. Built on React from Figma design. Beautiful animations, responsive layout and expressive designs",
+      " Step into the future with this stunning Web3 agency website! Built with Next.js and brought to life with Framer Motion animations, this project showcases the perfect blend of modern design and cutting-edge technology. Every interaction is smooth, every transition is buttery, and every pixel screams 'innovation'!",
     imgUrl: images.metaversus,
     name: "UI/UX",
     projectLink: "https://metaversus-by-rohit.vercel.app/",
@@ -48,7 +66,7 @@ const FilterWorks = [
   {
     title: "Multiplayer NFT Card Game",
     description:
-      "This Game is built on Avalanche Chain which makes it gas efficient and fast to play. Security rich smart contract built on latest hardhat version. Connect with me to play together :)",
+      " Ready for the ultimate gaming experience? This multiplayer NFT card game runs on Avalanche blockchain for lightning-fast, gas-efficient gameplay! Built with bulletproof smart contracts and the latest Hardhat framework. Challenge me to a game and let's see who's the real champion! 🏆",
     imgUrl: images.nft_game,
     name: "Web3 DApp",
     projectLink: "https://rohit-nft-card-game.vercel.app/",
@@ -57,9 +75,31 @@ const FilterWorks = [
     tech: ["React, Avalanche, Solidity, Hardhat, Tailwind"],
   },
   {
+    title: "CryptoVerse",
+    description:
+      "CryptoVerse is a Web Application which provides real-time information related to Crypto-Universe. i.e, Price, About, News and more.",
+    imgUrl: images.cryptoverse,
+    name: "Web App",
+    projectLink: "https://cryptoverse-by-rohit.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/Cryptoverse",
+    tags: "Web App",
+    tech: ["React, Crypto, API, Redux ToolKit"],
+  },
+  {
+    title: "MyTube",
+    description:
+      "It's a Youtube clone but without Ads :) Watch your favorite videos anywhere for free.It has a beautiful UI too.",
+    imgUrl: images.mytube,
+    name: "Web App",
+    projectLink: "https://mytube-a-youtube-clone.vercel.app/",
+    codeLink: "https://github.com/RohitKS7/Mytube____A-Youtube-Clone",
+    tags: "Web App",
+    tech: ["React, API, Video Player"],
+  },
+  {
     title: "CrowdFunding Web3 Dapp",
     description:
-      "An Truly Decentralized application to raise funds for any cause. Contract Created and Deployed on ThirdWeb.",
+      " Revolutionizing fundraising with true decentralization! This platform empowers anyone to raise funds for their cause without intermediaries. Built with ThirdWeb's powerful infrastructure, it's secure, transparent, and puts the power back in the people's hands. No more middlemen, just pure blockchain magic! ✨",
     imgUrl: images.crowdfunding,
     name: "Web3 DApp",
     projectLink: "https://crowdfunding-by-rohit.netlify.app/",
@@ -78,17 +118,7 @@ const FilterWorks = [
     tags: "Web App",
     tech: ["React, OpenAI, ChatGPT, Express, Mern, Render"],
   },
-  {
-    title: "CryptoVerse",
-    description:
-      "CryptoVerse is a Web Application which provides real-time information related to Crypto-Universe. i.e, Price, About, News and more.",
-    imgUrl: images.cryptoverse,
-    name: "Web App",
-    projectLink: "https://cryptoverse-by-rohit.vercel.app/",
-    codeLink: "https://github.com/RohitKS7/Cryptoverse",
-    tags: "Web App",
-    tech: ["React, Crypto, API, Redux ToolKit"],
-  },
+
   {
     title: "All-Links - My Personal Linktree",
     description:
@@ -123,17 +153,7 @@ const FilterWorks = [
     tags: "Web App",
     tech: ["React, Sycnfusion, Charts"],
   },
-  {
-    title: "MyTube",
-    description:
-      "It's a Youtube clone but without Ads :) Watch your favorite videos anywhere for free.It has a beautiful UI too.",
-    imgUrl: images.mytube,
-    name: "Web App",
-    projectLink: "https://mytube-a-youtube-clone.vercel.app/",
-    codeLink: "https://github.com/RohitKS7/Mytube____A-Youtube-Clone",
-    tags: "Web App",
-    tech: ["React, API, Video Player"],
-  },
+
   {
     title: "NFT Marketplace",
     description:
@@ -194,21 +214,6 @@ const FilterWorks = [
 
 const Web2SkillsList = [
   {
-    title: "HTML",
-    icon: images.html,
-    bgColor: "#FFF4F2",
-  },
-  {
-    title: "CSS",
-    icon: images.css,
-    bgColor: "#DDE8EE",
-  },
-  {
-    title: "Javascript",
-    icon: images.javascript,
-    bgColor: "#FDF7D1",
-  },
-  {
     title: "REACT",
     icon: images.react,
     bgColor: "#ECFCFF",
@@ -219,19 +224,24 @@ const Web2SkillsList = [
     bgColor: "#EFE8FA",
   },
   {
-    title: "Vite JS",
-    icon: images.vitejs,
+    title: "TypeScript",
+    icon: images.typescript,
+    bgColor: "#EFE8FA",
+  },
+  {
+    title: "Tailwind CSS",
+    icon: images.tailwind,
+    bgColor: "#12c9b729",
+  },
+  {
+    title: "Javascript",
+    icon: images.javascript,
     bgColor: "#FDF7D1",
   },
   {
-    title: "Visual Studio",
-    icon: images.visual_studio,
+    title: "Cursor",
+    icon: images.cursor,
     bgColor: "#DDE8EE",
-  },
-  {
-    title: "SCSS",
-    icon: images.scss,
-    bgColor: "#FFF4F2",
   },
   {
     title: "API",
@@ -244,37 +254,27 @@ const Web2SkillsList = [
     bgColor: "#e1cbf9b8",
   },
   {
-    title: "Tailwind CSS",
-    icon: images.tailwind,
-    bgColor: "#12c9b729",
-  },
-  {
-    title: "Bootstrap",
-    icon: images.bootstrap,
-    bgColor: "#e1cbf9b8",
-  },
-  {
     title: "Framer Motion",
     icon: images.framer_motion,
     bgColor: "#e1cbf9b8",
-  },
-  {
-    title: "Material UI",
-    icon: images.material,
-    bgColor: "#ECFCFF",
   },
 ];
 
 const SkillsList = [
   {
-    title: "Solidity",
-    icon: images.solidity,
-    bgColor: "#EFE8FA",
+    title: "Viem",
+    icon: images.viem,
+    bgColor: "#e1cbf9b8",
   },
   {
-    title: "BlockChain",
-    icon: images.blockchain,
-    bgColor: "#DDE8EE",
+    title: "Ethers.js",
+    icon: images.ethersjs,
+    bgColor: "#e1cbf9b8",
+  },
+  {
+    title: "IPFS",
+    icon: images.ipfs,
+    bgColor: "#FFF4F2",
   },
   {
     title: "Alchemy",
@@ -287,101 +287,66 @@ const SkillsList = [
     bgColor: "#FFF4F2",
   },
   {
-    title: "Avalanche",
-    icon: images.avalanche,
-    bgColor: "#FFF4F2",
-  },
-  {
     title: "Chainlink",
     icon: images.chainlink,
     bgColor: "#ECFCFF",
   },
-  {
-    title: "Ethereum",
-    icon: images.ethereum,
-    bgColor: "#EFE8FA",
-  },
-  {
-    title: "Ethers.js",
-    icon: images.ethersjs,
-    bgColor: "#e1cbf9b8",
-  },
-  {
-    title: "Ganache",
-    icon: images.ganache,
-    bgColor: "#FFF4F2",
-  },
-  {
-    title: "Hardhat",
-    icon: images.hardhat,
-    bgColor: "#FDF7D1",
-  },
-  {
-    title: "Wallet Connect",
-    icon: images.walletconnect,
-    bgColor: "#DDE8EE",
-  },
-  {
-    title: "Metamask",
-    icon: images.metamask,
-    bgColor: "#FFF4F2",
-  },
-  {
-    title: "Sanity",
-    icon: images.sanity,
-    bgColor: "#FFF4F2",
-  },
-  {
-    title: "Moralis",
-    icon: images.moralis,
-    bgColor: "#12c9b729",
-  },
-  {
-    title: "NFT",
-    icon: images.nft,
-    bgColor: "#ECFCFF",
-  },
-  {
-    title: "Openzeppelin",
-    icon: images.openzeppelin,
-    bgColor: "#ECFCFF",
-  },
-  {
-    title: "The Graph Protcol",
-    icon: images.thegraph,
-    bgColor: "#ECFCFF",
-  },
-  {
-    title: "Truffle",
-    icon: images.truffle,
-    bgColor: "#EFE8FA",
-  },
-  {
-    title: "Uniswap",
-    icon: images.uniswap,
-    bgColor: "#FFF4F2",
-  },
-  {
-    title: "Aave",
-    icon: images.aave,
-    bgColor: "#DDE8EE",
-  },
+
+    {
+      title: "Metamask",
+      icon: images.metamask,
+      bgColor: "#FFF4F2",
+    },
+
 ];
 
 const Testimonials = [
+  {
+    name: "Richard @JamoDefi",
+    imgUrl: images.richard,
+    feedback: `I had the pleasure of working with Rohit as our frontend engineer at Amana DeFi, where we’re building an omnichain yield aggregator to simplify DeFi investing. Rohit was responsible for building and maintaining our React + TypeScript frontend, and played a critical role in integrating our UI with smart contracts for both same-chain and cross-chain transactions.
+
+He also worked on:
+
+- Wallet integrations
+
+- On-chain rating providers
+
+- Real-time APY data via DefiLlama
+
+- User onboarding and interface improvements
+
+Rohit was enthusiastic, proactive, and always eager to contribute beyond his core responsibilities. He often made thoughtful suggestions across both product and technical areas — a true team player. I’d gladly recommend him to any team looking for a skilled and dependable frontend developer in the Web3 space.`,
+   company: "Founder @AmanaDefi",
+  },
+  {
+    name: "Quirin Pius Huber @cryptoq22",
+    imgUrl: images.quirin,
+    feedback:
+      `Thank you for the 6 months together!
+
+I had the pleasure of working side by side with Rohit. During our time, I quickly realized that he’s not only great at executing tasks – he also comes up with ideas that push things forward in moments of conflict or during important decisions.
+
+As a Web3 FE at Amana, Rohit faced complex tech challenges like cross-chain mechanisms, but he dug into and solved them and always showed up, even at late hours.
+
+Having Rohit as a colleague or partner on your side brings many, many benefits!
+
+Thank's for the time and all the best, champ!`,
+    company: "Founder NextFlow Digital",
+  },
   {
     name: "Sharath @sharatkrml",
     imgUrl: images.twitter1,
     feedback:
       "Rohit is a very helpful and fast to respond guy. He has good knowledge of the stuff he's building. This guy can deliver create killing applications. ",
-    company: "Web3 Dev @airstack_xyz",
+    company: "Co-Founder 'Stealth Startup'",
   },
   {
-    name: "Param.eth @Param_eth",
+    name: "Param @Param_eth",
     imgUrl: images.twitter2,
     feedback:
       "I can always count on Rohit, Whenever I need something done immediately.",
-    company: "Founder @MintWriterHQ & @web3verse_",
+    company: "Contributor @zkPass",
   },
 ];
 
