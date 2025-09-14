@@ -296,6 +296,7 @@ const SkillsList = [
     icon: images.nextjs,
     bgColor: "#ECFCFF",
   },
+  
 
     {
       title: "Metamask",
