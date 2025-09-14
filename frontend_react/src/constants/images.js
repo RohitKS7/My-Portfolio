@@ -39,6 +39,8 @@ import typescript from "../assets/typescript.svg";
 import cursor from "../assets/cursor_icon.svg";
 import viem from "../assets/viem_logo.png";
 import ipfs from "../assets/ipfs_icon.png";
+import nodejs from "../assets/nodejs.png";
+import mongodb from "../assets/mongodb.svg";
 
 import frontend from "../assets/frontend.jpg";
 import ui_ux from "../assets/ui_ux.jpg";
@@ -82,6 +84,8 @@ import userRetentionVideo from "../assets/about assets/13_video.mp4";
 import userRetentionImage from "../assets/about assets/13_image.jpg";
 
 const images = {
+  mongodb,
+  nodejs,
   email,
   api,
   css,

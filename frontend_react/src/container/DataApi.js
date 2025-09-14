@@ -291,11 +291,26 @@ const SkillsList = [
     icon: images.chainlink,
     bgColor: "#ECFCFF",
   },
+  {
+    title: "Next.js",
+    icon: images.nextjs,
+    bgColor: "#ECFCFF",
+  },
 
     {
       title: "Metamask",
       icon: images.metamask,
       bgColor: "#FFF4F2",
+    },
+    {
+      title: "Node.js",
+      icon: images.nodejs,
+      bgColor: "#ECFCFF",
+    },
+    {
+      title: "MongoDB",
+      icon: images.mongodb,
+      bgColor: "#ECFCFF",
     },
 
 ];
